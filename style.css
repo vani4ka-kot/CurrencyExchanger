@@ -1,0 +1,45 @@
+body {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 {
+    max-height: 400px;
+    max-width: 600px;
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div3 {
+    border: 2px solid rgb(130, 255, 120);
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.div4 {
+    display: flex;
+    justify-content: center;
+}
+
+#input1,
+#input2 {
+    width: 83.5%;
+    border: 2px solid rgb(92, 92, 92);
+    border-radius: 4px;
+    padding: 2%;
+    margin: 5px;
+    margin-top: 0;
+    text-align: center;
+}
